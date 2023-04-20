@@ -22,7 +22,7 @@ struct RecipeDetailView: View {
                 
                 //MARK: Ingredients
                 VStack(alignment: .leading) {
-                    Text("Ingredients").font(.headline)
+                    Text("Ingredient").font(.headline)
                         .padding(.vertical, 5)
                     
                     ForEach(recipe.ingredients, id: \.self){item in
